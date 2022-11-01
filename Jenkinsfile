@@ -4,7 +4,7 @@ pipeline {
 		stage ('SCM initialize')
 		{
 			steps {
-			echo "Hello World"
+			git 'https://github.com/SSDevops-10/demoappjenkins.git'
 			}
 		}
 		stage ('Maven validate')
