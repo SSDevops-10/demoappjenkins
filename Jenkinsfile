@@ -25,10 +25,10 @@ pipeline {
 			echo "Maven test"
 			}
 		}
-		stage ('Maven validate')
+		stage ('Maven verify')
 		{
 			steps {
-			echo "Maven validate"
+			echo "Maven verify"
 			}
 		}
 	}
